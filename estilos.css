@@ -1,0 +1,116 @@
+/* NavBar */
+.nav-link:hover {
+    color: hsl(0, 14%, 93%);
+}
+
+/* Carrusel */
+.text-carrusel {
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 15%;
+    margin-left: 60%;
+    color: white;
+    height: 200px;
+    width: 500px;
+    padding: 0px 5%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Oradores */
+.TituloOradores {
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.span1 {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    width: 80px;
+    background: #eeca02;
+    color: rgb(22, 21, 21);
+}
+
+.span2 {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    width: 80px;
+    background: #43b7fa;
+    color: rgb(249, 251, 252);
+}
+
+.span3 {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    width: 80px;
+    background: #4e4e4e;
+    color: rgb(245, 243, 243);
+}
+
+.span4 {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    width: 80px;
+    background: #e20c0c;
+    color: rgb(249, 251, 252);
+}
+
+/* El lugar y la fecha */
+.col-6 {
+    background-color: rgb(54, 53, 53);
+    color: rgb(241, 240, 240);
+}
+
+.text1 {
+    height: auto;
+    overflow: hidden;
+}
+
+/* Formulario */
+.label-orador {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.conora {
+    text-decoration-line: underline;
+}
+
+.text1-formulario {
+    font-size: 11px;
+}
+
+.text2-formulario {
+    font-size: 11px;
+    margin-top: -20px;
+    margin-left: 17%;
+}
+
+.text-principal{
+    text-align: center;
+}
+
+.card-text1{
+    color: #4e4e4e;
+    font-size: 13px;
+}
+.VENTA{
+    text-align: center;
+}
+.Valor{
+    text-align: center;
+    font-size: 40px;
+}
+

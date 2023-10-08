@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to- fit=no">
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" style="margin: -8px 0px -8px 0px; background-color: #363636;">
+        <img src="Imagenes/codoacodo.png" height="75px" width="125px">
+        <div class="navbar-brand" style="color: white">Conf Bs As</div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link link-light" aria-current="page" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">Conviertete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="CompraDeTickets.html">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carrusel -->
+  <div class="row">
+    <div class="col-12" style="display: inline-flex;">
+
+      <div class="container-expand">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Imagenes/ba1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/ba2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/ba3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div><br>
+
+      <div class="text-carrusel">
+        <h1>Conf Bs As</h1>
+        <p>
+          Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+          experiencia de los exprtos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a
+          otros
+          estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+        </p>
+        <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+        <a type="button" class="btn btn-success" href="CompraDeTickets.html">Comprar tickets</a>
+      </div>
+    </div>
+  </div><br>
+
+  <!-- Los Oradores -->
+  <div class="TituloOradores">
+    <h6>CONOCE A LOS</h6>
+    <p>ORADORES</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="card col-4">
+        <img style="width: auto; height:auto;" src="Imagenes/steve.jpg" alt="..."><br>
+        <div>
+          <span class="span1">Java Script</span>
+          <span class="span2">react</span>
+        </div><br>
+        <h4>Steve Jobs</h4>
+        <p>(San Francisco, 24 de febrero de 1955-Palo Alto, 5 de octubre de 2011) fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company.​</p><br>
+      </div>
+
+      <div class="card col-4 ">
+        <img style="width: auto; height: auto;" src="Imagenes/bill.jpg" alt="..."><br>
+        <div>
+          <span class="span1">Java Script </span>
+          <span class="span2">react</span>
+        </div><br>
+        <h4>Bill Gates</h4>
+        <p>(Seattle, Washington; 28 de octubre de 1955), conocido como Bill Gates, es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen. Durante su carrera en Microsoft, Gates ocupó los cargos de presidente, director ejecutivo (CEO), presidente y arquitecto jefe de software, además de ser el mayor accionista individual hasta mayo de 2014. Fue uno de los principales empresarios de la revolución de las microcomputadoras de las décadas de 1970 y 1980.</p><br>
+      </div>
+
+      <div class="card col-4">
+        <img style="width: auto; height: auto;" src="Imagenes/ada.jpeg" alt="..."><br>
+        <div>
+          <span class="span3">Negocios</span>
+          <span class="span4">Startup</span>
+        </div><br>
+        <h4>Ada</h4>
+        <p>El lenguaje de programación Ada, creado por el Departamento de Defensa de los Estados Unidos, fue nombrado así en homenaje a Ada Lovelace. El manual de referencia del lenguaje fue aprobado el 10 de diciembre de 1980, y al Estándar de Defensa de los Estados Unidos para el lenguaje MIL-STD-1815 se le dio el número del año de su nacimiento.</p><br>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bs As Octubre -->
+  <br>
+  <div class="container-expand">
+    <div class="row">
+      <img class="col-6" src="Imagenes/honolulu.jpg">
+      <div class="col-6">
+        <div class="text1">
+          <h1>Bs As - Octubre</h1>
+          <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos,
+            Honululu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se
+            refiere al area urbana de la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado
+            una ciudad- condado consolidada que cubre toda la ciudad (aproximadamenet 600km2 de superficie).<br>
+          </p>
+          <button type="button" class="btn btn-outline-secondary">Conoce mas</button>
+        </div><br>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Formulario -->
+  <div class="label-orador">
+    <h6>CONVIERTETE EN UN</h6>
+    <P>ORADOR</P>
+    <div class="text1-formulario">Anotate como orador para dar una <span class="conora"> charla ignite</span> Cuentenos
+      de que quieres hablar!
+    </div>
+  </div>
+  <form>
+    <div class="row g-3">
+      <div class="col-2"></div>
+      <div class="col-4">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+      </div>
+      <div class="col-4">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+      </div>
+    </div><br>
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+        style="height: 100px; width: 66%; margin: 0% 17%;">
+  Sobre que quieres hablar?
+  </textarea>
+    </div><br>
+    <div class="text2-formulario">
+      <p>Recuerda incñuir un título para tu charla</p>
+    </div>
+    <div class="d-grid gap-2" style="width: 66%; margin-left: 17%;">
+      <button class="btn btn-primary" type="button; reset" ; value="borrar" ;
+        style="background-color: rgb(127, 199, 45); border: 0px; ">Enviar</button>
+    </div>
+  </form>
+
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: hsl(195, 92%, 14%)">
+    <div class="container-expand">
+      <section class="mt-5">
+
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Preguntas frecuentes</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Contactanos</a>
+            </h6>
+          </div>
+
+          <div class="col-md-1">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Prensa</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Conferecias</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Terminos y condiciones</a>
+            </h6>
+          </div>
+
+          <div class="col-md-1">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Privacidad</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white" style="font-size: 12px;">Estudiantes</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+      <hr class="my-5" />
+  </footer>
+
+
+
+  <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
